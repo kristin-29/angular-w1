@@ -1,0 +1,45 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #f456ff; 
+  }
+  
+  h2 {
+    color: #b54bb3; 
+  }
+  
+  p {
+    color: #1a1a1a; 
+  }
+  
+  a {
+    color: #f456ff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #b54bb3;
+  }
+  
+  .link {
+    font-weight: bold;
+
+  }
+  .section-content {
+      display: none;
+    }
+    
+    .section-content.show {
+      display: block;
+    }
+    
+    .section-title {
+      cursor: pointer;
+    }
